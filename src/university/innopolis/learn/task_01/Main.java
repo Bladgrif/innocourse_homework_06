@@ -5,7 +5,7 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
         try {
-            Copier.copyTextFile("src/university/innopolis/learn/data/Example.txt", "src/university/innopolis/learn/data/ExampleCopy.");
+            Copier.copyTextFile("src/university/innopolis/learn/data/Example.txt", "src/university/innopolis/learn/data/Example_copy.txt");
         } catch (IOException e) {
             System.out.println("Что-то пошло не так");
         }
